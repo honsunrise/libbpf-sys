@@ -25,9 +25,6 @@ bindgen = { version = "^0.60", optional = true }
 cc = "^1.0"
 pkg-config = "0.3"
 
-[lib]
-crate-type = ["lib", "staticlib"]
-
 [features]
 novendor = []
 static = []
